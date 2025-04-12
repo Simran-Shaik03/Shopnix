@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopnix</title>
+  <link rel="shortcut icon" type="x-icon" href="logoShopnix.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="prdt&category.css">
+</head>
+<body>
+  <div class="container">
+    <h3 class="mb-4" style="color: #3f51b5">Let's Customize Your Shopnix Store</h3>
+    <h4 class="mb-4">Let's add a type, Category and Sub-category</h4>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="form-section">
+          <div class="mb-3">
+            <label for="productType" class="form-label">Add a product type</label>
+            <input type="text" class="form-control" id="productType" placeholder="eg - books">
+          </div>
+          <div class="mb-3">
+            <label for="category" class="form-label">Add a category (optional)</label>
+            <input type="text" class="form-control" id="category" placeholder="eg - Academic book">
+          </div>
+          <div class="mb-3">
+            <label for="subCategory" class="form-label">Add a sub-category (optional)</label>
+            <input type="text" class="form-control" id="subCategory" placeholder="eg - medical book">
+          </div>
+          <div class="d-flex justify-content-between">
+            <a href="index.html"><button class="btn btn-secondary">Back</button></a>
+            <a href="insertData.html"><button class="btn btn-primary">Next</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="diagram-box">
+          <div>
+            <div class="step-box blue">Product type</div>
+            <div class="arrow">↓</div>
+            <div class="step-box yellow">Category</div>
+            <div class="arrow">↓</div>
+            <div class="step-box yellow">Sub-Category</div>
+            <div class="arrow">→</div>
+            <div class="step-box lavender">Product</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

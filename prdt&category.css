@@ -1,0 +1,33 @@
+body {
+    background-color: #f5f7fa; 
+    padding: 40px;
+  }
+  .form-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .diagram-box {
+    background-color: #dfffe0;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .step-box {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+    font-weight: bold;
+  }
+  .blue { background-color: #3f51b5; color: white; }
+  .yellow { background-color: #ffc107; color: black; }
+  .lavender { background-color: #d1d8ff; color: black; }
+  .arrow {
+    font-size: 24px;
+    text-align: center;
+    margin: 5px 0;
+  }

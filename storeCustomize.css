@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa;
+    height: 100vh;
+  }
+  .container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .mb-4text-primary{
+    color: #3f51b5;
+  }
+  .mb-3text-info{
+    color: black;
+  }
+  .form-section {
+    flex: 1;
+    min-width: 320px;
+    padding: 30px;
+    background: #fff;
+    border-right: 1px solid #dee2e6;
+  }
+  .preview-section {
+    flex: 1;
+    min-width: 320px;
+    padding: 30px;
+    background: #f1f1f1;
+  }
+  .preview-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background: #fff;
+    min-height: 300px;
+  }
+  .preview-box img {
+    max-height: 100px;
+    width: auto;
+  }
+  .favicon-preview {
+    height: 32px;
+    width: 32px;
+  }
